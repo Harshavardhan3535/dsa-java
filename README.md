@@ -4,4 +4,5 @@ My LeetCode practice in Java. I solve each problem on paper first, then code it,
 
 | # | Problem | Approach | Time |
 |---|---------|----------|------|
-| 01 | [Two Sum](01-two-sum) | HashMap, one pass | O(n) || 02 | [Contains Duplicate](02-contains-duplicate) | HashSet / Sorting | O(n) / O(n log n) |
+| 01 | [Two Sum](01-two-sum) | HashMap, one pass | O(n) |
+| 02 | [Contains Duplicate](02-contains-duplicate) | HashSet / Sorting | O(n) / O(n log n) |
