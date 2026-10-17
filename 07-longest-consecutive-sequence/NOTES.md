@@ -11,3 +11,16 @@
 - I wrote 100 and 200 as a run, but consecutive means each number is exactly 1 more.
 - I wrote `set.add(1)` instead of `set.add(x)`, so the set only held one number.
 - I forgot `streak++` inside the `while`, so the length never grew.
+
+## Approach 2: Sorting (O(n log n))
+Sort the array, then compare each number with the next one:
+- next is exactly +1: the streak grows, and I update the longest
+- next is equal (duplicate): ignore it, the streak does not change
+- anything else: the run is broken, so the streak resets to 1
+
+| Approach | Time | Extra memory | Changes input |
+|----------|------|--------------|---------------|
+| HashSet | O(n) | O(n) | No |
+| Sorting | O(n log n) | O(1) to O(n) | Yes |
+
+The problem asks for O(n), so HashSet is the intended answer. Sorting is a good first answer in an interview before improving it.
