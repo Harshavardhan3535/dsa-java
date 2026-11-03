@@ -16,3 +16,4 @@ My LeetCode practice in Java. I solve each problem on paper first, then code it,
 | 10 | [3Sum](10-3sum) | Sort, fix one, two pointers, skip duplicates | O(n^2) |
 | 11 | [Container With Most Water](11-container-with-most-water) | Two pointers, move the shorter line | O(n) |
 | 12 | [Trapping Rain Water](12-trapping-rain-water) | Prefix/suffix max arrays / Two pointers | O(n) |
+| 13 | [Best Time to Buy and Sell Stock](13-best-time-to-buy-and-sell-stock) | One pass, track the minimum price so far | O(n) |
