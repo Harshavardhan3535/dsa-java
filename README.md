@@ -19,3 +19,4 @@ My LeetCode practice in Java. I solve each problem on paper first, then code it,
 | 13 | [Best Time to Buy and Sell Stock](13-best-time-to-buy-and-sell-stock) | One pass, track the minimum price so far | O(n) |
 | 14 | [Longest Substring Without Repeating Characters](14-longest-substring-without-repeating-characters) | Sliding window with HashSet / last seen index | O(n) |
 | 15 | [Longest Repeating Character Replacement](15-longest-repeating-character-replacement) | Sliding window with letter counts | O(n) |
+| 16 | [Permutation in String](16-permutation-in-string) | Fixed-size sliding window with letter counts | O(n) |
